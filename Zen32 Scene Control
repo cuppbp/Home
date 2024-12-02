@@ -20,10 +20,10 @@ blueprint:
           selector:
             device:
               filter:
-                - integration:
+                - integration: Mosquitto
                   manufacturer: Zooz
                   model: ZEN32
-                - integration:
+                - integration: Mosquitto
                   manufacturer: Zooz
                   model: ZEN32 800LR
               multiple: false
